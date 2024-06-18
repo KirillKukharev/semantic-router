@@ -29,7 +29,7 @@ class YandexGPTEncoder(BaseEncoder):
 
         Attributes:
             client: An instance of the TextEmbeddingModel client.
-            type: The type of the encoder, which is "yandex-gpt".
+            type: The type of the encoder, which is "yandexgpt".
         """
     client: Optional[Any] = None
     type: str = "yandexgpt"
